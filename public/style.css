@@ -1,0 +1,26 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+
+    color: black;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-flexbox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
