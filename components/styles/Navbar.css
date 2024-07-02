@@ -1,0 +1,21 @@
+/* CSS */
+#Navbar {
+    top: 3px;
+    font-size: 20px;
+    position: fixed;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavbarElement {
+    padding: 0px 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.NavbarElement:hover {
+    color: orange;
+    cursor: pointer;
+}

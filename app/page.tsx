@@ -13,8 +13,13 @@ export default function Index(){
     return (
 
         <>
-        
-            Hello!
+    
+            <div id = 'header' className = 'flexbox' style = {{padding: '50px'}}>
+                <img src = '/images/icon.png' width = {'175vw'}></img>
+                <p id = 'headerText' style = {{paddingLeft: 20}}>
+                    Hello, <br></br> I'm <span style = {{color: 'orange'}}>Rh3t</span>!
+                </p>
+            </div>
         
         </>
 

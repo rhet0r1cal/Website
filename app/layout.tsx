@@ -1,6 +1,8 @@
 // Imports
 import '@/public/style.css';
 import Decal from '@/components/Decal';
+import Navbar from '@/components/Navbar';
+import Version from '@/components/Version';
 
 // Interface
 interface LayoutProps {
@@ -16,9 +18,15 @@ export default function RootLayout({children}: LayoutProps){
         <html lang = 'en' className = 'flexbox'>
             <head></head>
             <body>
-                <Decal size = {2000}></Decal>
+            
                 {children}
+
+                { /* Extra Stuff */}
+                <Navbar></Navbar>
+                <Decal size = {2000}></Decal>
+                <Version fromFile = {true}></Version>
                 <script src = '/api/attribute.js'></script>
+
             </body>
         </html>
 

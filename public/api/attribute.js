@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     element.style.bottom = '-35px';
     element.style.position = 'fixed';
     element.style.borderRadius = '10px';
-    element.style.padding = '10px 10px 30px';
-    element.style.backgroundColor = '#353535';
+    element.style.padding = '15px 20px 30px 20px';
+    element.style.backgroundColor = '#181818';
     element.style.transition = 'all ease-in-out 0.1s';
     
     // Events

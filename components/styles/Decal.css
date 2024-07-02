@@ -1,20 +1,13 @@
-/* CSS */
+/* Planet Decal CSS */
 #Decal {
-    opacity: 25%;
-    animation: roll infinite 180s linear;
-}
-
-#DecalContainer {
+    top: 5%;
+    left: 45%;
+  
     z-index: -1;
-    user-select: none;
-
-    width: 100vw;
-    height: 100vh;
+    opacity: 20%;
     position: fixed;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    filter: grayscale(1);
+    animation: roll infinite 120s linear;
 }
 
 @keyframes roll {
