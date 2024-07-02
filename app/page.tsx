@@ -1,7 +1,7 @@
 // Imports
 import type { Metadata } from 'next';
 
-// Metadata
+// Meta
 export const metadata: Metadata = {
     title: 'home | rhet.dev'
 }
@@ -13,11 +13,9 @@ export default function Index(){
     return (
 
         <>
-
-            <div className = 'centered-flexbox'>
-                Yeah, i'm currently renovating this. You'll have to come back later.
-            </div>
-
+        
+            Hello!
+        
         </>
 
     )

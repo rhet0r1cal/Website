@@ -1,0 +1,23 @@
+/* CSS */
+#Decal {
+    opacity: 25%;
+    animation: roll infinite 180s linear;
+}
+
+#DecalContainer {
+    z-index: -1;
+    user-select: none;
+
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes roll {
+    0% {rotate: 360deg;}
+    100% {rotate: 0deg;}
+}
