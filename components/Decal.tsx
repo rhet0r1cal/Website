@@ -1,5 +1,5 @@
 // Imports
-import './styles/Decal.css';
+import '@/styles/Decal.css';
 
 // Interface
 interface DecalProps {

@@ -1,5 +1,6 @@
 // Imports
-import './styles/Navbar.css';
+import '@/styles/Navbar.css';
+import { aboutButtonClick, blogButtonClick, homeButtonClick } from '@/logic/Navbar';
 
 // Component
 export default function Navbar(){
@@ -11,12 +12,11 @@ export default function Navbar(){
             <div className = 'flexbox'>
                 <div id = 'Navbar'>
                     <p style = {{paddingRight: 10}}>~</p>
-                    <p id = 'HomeButton' className = 'NavbarElement'>Home</p>
-                    <p id = 'AboutButton' className = 'NavbarElement'>About</p>
-                    <p id = 'BlogButton' className = 'NavbarElement'>Blog</p>
+                    <p className = 'NavbarElement' onClick={homeButtonClick}>Home</p>
+                    <p className = 'NavbarElement' onClick={aboutButtonClick}>About</p>
+                    <p className = 'NavbarElement' onClick={blogButtonClick}>Blog</p>
                     <p style = {{paddingLeft: 10}}>~</p>
                 </div>
-                <script src = '/logic/Navbar.js'></script>
             </div>
         </>
 

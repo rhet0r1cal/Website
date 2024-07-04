@@ -6,24 +6,12 @@ html {
     height: 100%;
 
     color: white;
-    font-size: 18px;
     font-family: 'Roboto Mono', sans-serif;
     background-color: var(--background-color);
 }
 
 :root {
     --background-color: #2e2926;
-}
-
-#headerText {
-    font-size: 70px;
-    font-weight: bold;
-}
-
-#headerAlt {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
 }
 
 /* Flexbox */

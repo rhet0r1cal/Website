@@ -1,5 +1,6 @@
 // Imports
 import type { Metadata } from 'next';
+import IntroductionElement from '@/components/Introduction';
 
 // Meta
 export const metadata: Metadata = {
@@ -13,13 +14,10 @@ export default function Index(){
     return (
 
         <>
-    
-            <div id = 'header' className = 'flexbox' style = {{padding: '50px'}}>
-                <img src = '/images/icon.png' width = {'175vw'}></img>
-                <p id = 'headerText' style = {{paddingLeft: 20}}>
-                    Hello, <br></br> I'm <span style = {{color: 'orange'}}>Rh3t</span>!
-                </p>
-            </div>
+
+            <IntroductionElement>
+                Nice to meet you! I'm a software developer based in the United States.
+            </IntroductionElement>
         
         </>
 
