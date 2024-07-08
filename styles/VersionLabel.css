@@ -1,0 +1,15 @@
+/* CSS */
+#VersionLabel {
+    left: 2%;
+    bottom: -50px;
+    position: fixed;
+
+    border-radius: 15px;
+    background-color: #1a1715;
+    padding: var(--mainPadding) var(--mainPadding) var(--otherPadding) var(--mainPadding);
+}
+
+:root {
+    --mainPadding: 15px;
+    --otherPadding: 50px;
+}

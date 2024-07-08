@@ -2,6 +2,7 @@
 import '@/styles/_Main.css';
 import Decal from '@/components/Decal';
 import Navbar from '@/components/Navbar';
+import VersionLabel from '@/components/VersionLabel';
 
 // Interface
 interface LayoutProps {
@@ -22,6 +23,7 @@ export default function RootLayout({children}: LayoutProps){
 
                 { /* Extra Stuff */}
                 <Navbar></Navbar>
+                <VersionLabel></VersionLabel>
                 <Decal size = {2000}></Decal>
 
             </body>

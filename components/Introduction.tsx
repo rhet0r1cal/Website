@@ -1,5 +1,6 @@
 // Imports
 import '@/styles/Introduction.css';
+import StackDisplay from './StackDisplay';
 
 // Interface
 interface IntroProps {
@@ -16,11 +17,17 @@ export default function IntroductionElement({children}: IntroProps){
 
             <div id = 'headerContainer' className = 'flexbox'>
                 <div className = 'flexbox'>
-                    <img src = '/images/icon.png' width = {200}></img>
+                    <img id = 'imgContainer' src = '/images/icon.png' width = {125}></img>
                     <p id = 'headerContent'>
                         Hello, <br></br> I'm <span id = 'specialText'>Rh3t</span>!
                     </p>
                 </div>
+
+                <StackDisplay
+                    padding = '45px'
+                    size = '30px'
+                ></StackDisplay>
+
                 <p id = 'descriptionText'>
                     {children}
                 </p>

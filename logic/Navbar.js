@@ -12,3 +12,7 @@ export function aboutButtonClick(){
 export function blogButtonClick(){
     location.href = '/blog';
 }
+
+export function archiveButtonClick(){
+    location.href = '/archive';
+}
