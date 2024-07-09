@@ -9,7 +9,7 @@ export default function VersionLabel() {
     return (
 
         <p id = 'VersionLabel'>
-            Version {data.version}
+            Version {data.version} - {data.build_date}
         </p>
 
     )
