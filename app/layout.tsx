@@ -19,7 +19,9 @@ export default function RootLayout({children}: LayoutProps){
             <head></head>
             <body>
             
-                {children}
+                <div className = 'fade-in-bottom'>
+                    {children}
+                </div>
 
                 { /* Extra Stuff */}
                 <Navbar></Navbar>
