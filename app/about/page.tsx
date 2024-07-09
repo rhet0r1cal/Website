@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import Button from '@/components/Button';
 import ImageHeader from '@/components/ImageHeader';
-import { resumeClick, githubClick, instaClick } from '@/logic/aboutButtons';
+import { resume, github, instagram } from '@/logic/aboutPage';
 
 // Metadata
 export const metadata: Metadata = {
@@ -22,9 +22,9 @@ export default function aboutPage(){
             </ImageHeader>
 
             <div className = 'flexbox' style = {{marginTop: 40}}>
-                <Button onClickEvent = {resumeClick}>Resume</Button>
-                <Button onClickEvent = {githubClick} style = {{marginLeft: 20}}>GitHub</Button>
-                <Button onClickEvent = {instaClick} style = {{marginLeft: 20}}>Instagram</Button>
+                <Button onClickEvent = {resume}>Resume</Button>
+                <Button onClickEvent = {github} style = {{marginLeft: 20}}>GitHub</Button>
+                <Button onClickEvent = {instagram} style = {{marginLeft: 20}}>Instagram</Button>
             </div>
         
         </>

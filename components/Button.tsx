@@ -1,12 +1,12 @@
 // Imports
 import '@/styles/Button.css';
-import { CSSProperties } from 'react';
+import { CSSProperties, MouseEventHandler } from 'react';
 
 // Interface
 interface ButtonProps {
-    onClickEvent: void;
     style?: CSSProperties;
     children: React.ReactNode;
+    onClickEvent: MouseEventHandler;
 }
 
 // Component
