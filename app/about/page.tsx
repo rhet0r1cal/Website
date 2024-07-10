@@ -2,7 +2,6 @@
 import type { Metadata } from 'next';
 import ImageHeader from '@/components/ImageHeader';
 import SocialNavbar from '@/components/SocialNavbar';
-import { resume, github, instagram } from '@/logic/SocialNavbar';
 
 // Metadata
 export const metadata: Metadata = {
