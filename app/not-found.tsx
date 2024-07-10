@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 
 // Metadata
 export const metadata: Metadata = {
-    title: 'archive | rhet.dev'
+    title: '404 | rhet.dev'
 }
 
 // Component
-export default function archivePage(){
+export default function notFound(){
 
     // Content
     return (
@@ -15,9 +15,9 @@ export default function archivePage(){
         <div style = {{textAlign: 'center', fontWeight: 'bold'}}>
         
             <p style = {{fontSize: 30, margin: 10}}>
-                Uh oh!
+                404
             </p>
-            I'm still working on this lmao.
+            What you're looking for couldn't be located!
         
         </div>
 

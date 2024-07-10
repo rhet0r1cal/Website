@@ -1,8 +1,8 @@
 // Imports
 import type { Metadata } from 'next';
-import Button from '@/components/Button';
 import ImageHeader from '@/components/ImageHeader';
-import { resume, github, instagram } from '@/logic/aboutPage';
+import SocialNavbar from '@/components/SocialNavbar';
+import { resume, github, instagram } from '@/logic/SocialNavbar';
 
 // Metadata
 export const metadata: Metadata = {
@@ -18,14 +18,14 @@ export default function aboutPage(){
         <>
         
             <ImageHeader size = {150} title = "I'm Keegan, nice to meet you!">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br></br><br></br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I'm a 17 y/o software developer, or another one of those unfortunate souls who've sold their soul to the internet for more than 6 years. <br></br><br></br> I'm experienced in languages such as HTML, JavaScript, Typescript, and Python. Along with that, I also have experience with tools such as React, Next.js, and data storage and server software like Supabase, Cloudflare, and Firebase. <br></br><br></br> You can view my socials below, I look forward to working with you!
             </ImageHeader>
 
-            <div className = 'flexbox' style = {{marginTop: 40}}>
-                <Button onClickEvent = {resume}>Resume</Button>
-                <Button onClickEvent = {github} style = {{marginLeft: 20}}>GitHub</Button>
-                <Button onClickEvent = {instagram} style = {{marginLeft: 20}}>Instagram</Button>
-            </div>
+            <SocialNavbar
+                size = {40}
+                spacing = {40}
+                topMargin = {40}
+            ></SocialNavbar>
         
         </>
 
