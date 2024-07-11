@@ -21,7 +21,7 @@ export default function aboutPage(){
             </ImageHeader>
 
             <SocialNavbar
-                size = {40}
+                size = {25}
                 spacing = {40}
                 topMargin = {40}
             ></SocialNavbar>
