@@ -18,7 +18,6 @@ export default function SocialNavbar({spacing, size, topMargin}: SocialNavbarPro
         <div className = 'flexbox' style = {{marginTop: topMargin}}>
             <img className = 'button' src = '/icons/socials/github.svg' onClick = {github} width = {size}></img>
             <img className = 'button' src = '/icons/socials/x.svg' onClick = {twitter} width = {size} style = {{marginLeft: spacing}}></img>
-            <img className = 'button' src = '/icons/socials/resume.svg' onClick = {resume} width = {size} style = {{marginLeft: spacing}}></img>
         </div>
 
     )
